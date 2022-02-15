@@ -1,0 +1,39 @@
+
+.App{
+     margin-top: 150px;
+     text-align: center;
+     background-color: rgb(214, 230, 245);
+     width: 70%;
+     margin-left:15% ;
+     height: 350px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     border: 3px solid black;
+     /* padding-left: 30%; */
+}
+.forms p {
+     text-align: center;
+     color: rgb(139, 35, 35);
+}
+p{
+     margin-top: -8px;
+}
+table{
+     display: inline-block;
+     text-align: center;
+     justify-content: center;
+}
+label{
+     font-size: 19px;
+}
+input{
+     font-size: 15px;    
+}
+
+button{
+     padding: 10px;
+     font-size: 16px;
+     border-radius: 5px;
+     cursor: pointer;
+
+}
