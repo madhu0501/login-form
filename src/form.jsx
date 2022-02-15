@@ -74,7 +74,7 @@ const Form = () => {
           if (!fullname.mail) {
                errors.mail = "mail requeried"
           }
-          if (fullname.password.length < 5) {
+          if (fullname.password?.length < 5) {
                errors.password = "password should be 5 characters"
           }
           return errors
@@ -104,7 +104,6 @@ const Form = () => {
                                                             style={{ margin: "10px", Display: "block" }}
                                                        />
                                                   </td>
-                                                  {/* <br/> */}
                                              </tr>
                                              <tr>
                                                   <td></td>
@@ -164,8 +163,11 @@ const Form = () => {
                                                   </td>
                                              </tr>
                                              <tr>
-                                             <td></td>
-                                             <p>{error.password}</p>
+                                                  <td></td>
+                                                  <td>
+
+                                                  <p>{error.password}</p>
+                                                  </td> 
                                              </tr>
 
 
